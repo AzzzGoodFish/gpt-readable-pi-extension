@@ -1,0 +1,20 @@
+{
+  "name": "gpt-readable-pi-extension",
+  "version": "0.1.0",
+  "description": "A pi extension that appends concise communication style instructions for GPT models.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "gpt",
+    "prompt"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
